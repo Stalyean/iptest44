@@ -11,10 +11,10 @@
 <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
 <link href="icons/horse-wrench-icon.png" rel="icon" type="image/png"/>
 <link href="https://fonts.googleapis.com/css2?family=Anton&amp;display=swap" rel="stylesheet"/>
-<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
-</link></head>
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+</head>
 <body>
-<canvas id="pipesCanvas"></canvas>
+
 <div class="logo-bar">
 <div style="display: flex; align-items: center;">
 <img alt="Iron Plumbing Utah Logo" src="iron-plumbing-logo.png" style="width: 100%; max-width: 400px; height: auto;"/>
@@ -49,204 +49,8 @@
 <li><a href="gallery.html">Gallery</a> | <a href="#contact">Contact</a></li>
 </ul>
 </nav>
-<main>
-<section id="about">
-<h2 data-aos="fade-up">About Iron Plumbing</h2>
-<p data-aos="fade-up">Iron Plumbing is a family-owned business built on grit, skill, and a willingness to tackle the jobs that others turn down. Our team of licensed journeymen and apprentices specialize in both rough-in and finish plumbing across residential and small commercial projects. Whether it's a backed-up sewer line or a full repipe, we bring iron strength and fluid precision to every job.</p>
-<p data-aos="fade-up">Serving Utah County and nearby areas, including American Fork</p>
-<h2>Who We Are</h2>
-<p>Iron Plumbing Utah is a co-op of expert plumbers dedicated to precision craftsmanship and strong client relationships. With modern technology and transparent pricing, we offer dependable service from licensed professionals.</p>
-</section>
-<section class="highlight-section" id="services">
-<h2>Our Services</h2>
-<div class="grid">
-<div class="card"><strong>Residential Plumbing</strong><br/>Complete installs, repairs, and upgrades for homes of all sizes.</div>
-<div class="card"><strong>Water Heater Installs</strong><br/>Gas and electric systems installed to code with warranty.</div>
-<div class="card"><strong>Pipe Repairs</strong><br/>Fixing leaks, burst pipes, and deteriorated lines quickly.</div>
-<div class="card"><strong>Remodel Plumbing</strong><br/>Rough-in and finish plumbing for additions and renovations.</div>
-<div class="card"><strong>Drain Cleaning</strong><br/>Clearing clogs, roots, and blockages fast and clean.</div>
-<div class="card"><strong>Fixture Replacements</strong><br/>Updating faucets, toilets, and tubs with precision.</div>
-</div>
-</section>
-<section id="contact">
-<h2 data-aos="fade-up">Contact Iron Plumbing</h2>
-<p data-aos="fade-up"><strong>Phone:</strong> <a href="tel:+(385) 376-86655">(385) 376-8665</a></p>
-<p data-aos="fade-up"><strong>Service Area:</strong> Utah County and nearby areas, including American Fork</p>
-<p data-aos="fade-up"><strong>Business Hours:</strong> Monday–Friday: 8 AM – 5 PM</p>
-<p data-aos="fade-up"><strong>Email:</strong> <a href="mailto:ironplumbingut@gmail.com">ironplumbingut@gmail.com</a></p>
-</section>
-<h2 data-aos="fade-up">Contact Us</h2>
-<form action="https://formspree.io/f/mqkrpgvq" class="contact-form" data-aos="fade-up" method="POST">
-<label for="name">Name</label>
-<input name="name" required="" type="text"/>
-<label for="email">Email</label>
-<input name="email" required="" type="email"/>
-<label for="message">Message</label>
-<textarea name="message" required="" rows="5"></textarea>
-<button type="submit">Send Message</button>
-</form>
-<p>Or reach us at <a href="mailto:ironplumbingut@gmail.com">ironplumbingut@gmail.com</a> | (385) 376-8665</p>
 
-<h2>Contact Us</h2>
-<p>Phone: <a href="tel:+(385) 376-86654">(385) 376-8665</a></p>
-<p>Email: <a href="mailto:ironplumbingut@gmail.com">ironplumbingut@gmail.com</a></p>
-<p>Serving Eagle Mountain, Utah and surrounding areas.</p>
-
-<section id="testimonials">
-<h2 data-aos="fade-up">What Our Customers Say</h2>
-<div class="carousel-container" data-aos="fade-up">
-<div class="carousel">
-<div class="carousel-slide active">
-<p>"These guys were super professional and very easy to work with! We had them help us with a kitchen sink project and they did a fantastic job."</p>
-<strong>— James B.</strong>
-</div>
-<div class="carousel-slide">
-<p>"Super helpful, showed up right on time. Great customer service and great pricing. Highly recommend Iron Plumbing!"</p>
-<strong>— Chelsea D.</strong>
-</div>
-<div class="carousel-slide">
-<p>"We had a water heater and softener installed. They were amazing and professional. Thank you so much!"</p>
-<strong>— Carlos A.</strong>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-</section>
-<script>
-  let currentIndex = 0;
-  const slides = document.querySelectorAll('.carousel-slide');
-  function showSlide(index) {
-    slides.forEach((slide, i) => {
-      slide.classList.toggle('active', i === index);
-    });
-  }
-  setInterval(() => {
-    currentIndex = (currentIndex + 1) % slides.length;
-    showSlide(currentIndex);
-  }, 5000);
-</script>
-<h2 data-aos="fade-up">What Our Customers Say</h2>
-<div class="carousel-container" data-aos="fade-up">
-<div class="carousel">
-<div class="carousel-slide active">
-<p>"Iron Plumbing handled a sewer backup that other plumbers wouldn't touch. Honest, fast, and got it done right."</p>
-<strong>— M. Allen</strong>
-</div>
-<div class="carousel-slide">
-<p>"They installed our new water heater same-day. No fuss, fair price, and great communication."</p>
-<strong>— T. Jensen</strong>
-</div>
-<div class="carousel-slide">
-<p>"When our remodel contractor bailed, Iron Plumbing came in and roughed the entire basement — on time and clean."</p>
-<strong>— L. Romero</strong>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-<script>
-  let currentIndex = 0;
-  const slides = document.querySelectorAll('.carousel-slide');
-
-  function showSlide(index) {
-    slides.forEach((slide, i) => {
-      slide.classList.toggle('active', i === index);
-    });
-  }
-
-  setInterval(() => {
-    currentIndex = (currentIndex + 1) % slides.length;
-    showSlide(currentIndex);
-  }, 5000);
-</script>
-<h2 data-aos="fade-up">What Our Customers Say</h2>
-<div class="testimonial" data-aos="fade-up">
-<p>"Iron Plumbing Utah tackled a complex sewer line replacement in our century-old home. Their expertise and dedication were evident throughout the project."</p>
-<strong>— Satisfied Customer</strong>
-</div>
-<div class="testimonial" data-aos="fade-up" data-aos-delay="100">
-<p>"We had a major plumbing issue during a holiday weekend. Iron Plumbing Utah responded promptly and resolved the problem efficiently. Highly recommend!"</p>
-<strong>— Happy Client</strong>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-<script>
-  let currentIndex = 0;
-  const slides = document.querySelectorAll('.carousel-slide');
-  function showSlide(index) {
-    slides.forEach((slide, i) => {
-      slide.classList.toggle('active', i === index);
-    });
-  }
-  setInterval(() => {
-    currentIndex = (currentIndex + 1) % slides.length;
-    showSlide(currentIndex);
-  }, 4000);
-</script>
-</main>
-<footer>
+<footer><canvas id="pipesCanvasFooter"></canvas>
 <div>
 <p><strong>Iron Plumbing</strong> — Serving Utah County and nearby areas, including American Fork</p>
 <p><a href="tel:+(385) 376-86655">(385) 376-8665</a> | <a href="mailto:ironplumbingut@gmail.com">ironplumbingut@gmail.com</a></p>
@@ -270,11 +74,14 @@
     });
   </script>
 
+
 <script>
-  const canvas = document.getElementById("pipesCanvas");
+function runPipeCanvas(canvasId) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
   const ctx = canvas.getContext("2d");
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  canvas.width = canvas.offsetWidth;
+  canvas.height = canvas.offsetHeight;
 
   const pipes = [];
   const colors = ["#00ffff", "#ff4500", "#00ff00", "#ffa500"];
@@ -307,7 +114,7 @@
   }
 
   function animate() {
-    if (pipes.length < 70) {
+    if (pipes.length < 30) {
       pipes.push(new Pipe(
         Math.random() * canvas.width,
         Math.random() * canvas.height,
@@ -322,7 +129,10 @@
   }
 
   animate();
-</script>
+}
 
+runPipeCanvas("pipesCanvasHeader");
+runPipeCanvas("pipesCanvasFooter");
+</script>
 </body>
 </html>
