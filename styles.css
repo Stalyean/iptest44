@@ -312,3 +312,42 @@ footer nav a {
   margin-top: 0.25rem;
   color: #333;
 }
+
+.carousel-container {
+  margin: 2rem auto;
+  max-width: 900px;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  position: relative;
+  height: 400px;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  position: absolute;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+  position: relative;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  justify-content: center;
+}
