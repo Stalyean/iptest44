@@ -1,112 +1,89 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Project Gallery - Iron Plumbing</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <title>Project Gallery | Iron Plumbing Services</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto Condensed', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefefe;
+      color: #222;
+    }
+    header {
+      background-color: #c76c00;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .gallery figure {
+      margin: 0;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .gallery figcaption {
+      text-align: center;
+      margin-top: 0.5rem;
+      font-style: italic;
+      font-size: 0.95rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eee;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-  <header class="logo-bar">
-    <div style="display: flex; align-items: center;">
-      <img src="iron-plumbing-logo.png" alt="Iron Plumbing Logo" style="max-width: 50%; height: auto;" />
-      <span class="brand-name">Iron Plumbing</span>
-    </div>
-    <div class="brand-slogan">Iron Strength, Fluid Precision</div>
+  <header>
+    <h1>Project Gallery</h1>
+    <p>Real jobs. Real grit. Built to last.</p>
   </header>
-  <main>
-    <h2 data-aos="fade-up">Full Project Gallery</h2>
-    <div class="gallery-grid lightbox-gallery" data-aos="fade-up">
-
-      <figure>
-        <a href="frankenstein-boiler.jpg" target="_blank"><img src="frankenstein-boiler.jpg" alt="frankenstein-boiler.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“Built with 70% copper, 20% confusion, and 10% ‘It was like that when we got here.’”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="mud-soup-repair.jpg" target="_blank"><img src="mud-soup-repair.jpg" alt="mud-soup-repair.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“It’s not a job until you’re ankle-deep in mystery soup.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="firewood-hot-tub.jpg" target="_blank"><img src="firewood-hot-tub.jpg" alt="firewood-hot-tub.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“DIY spa day: fueled by firewood and hope.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="industrial-sink.jpg" target="_blank"><img src="industrial-sink.jpg" alt="industrial-sink.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“When the client says ‘vintage… but make it industrial-chic.’”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="insulation-drainwork.jpg" target="_blank"><img src="insulation-drainwork.jpg" alt="insulation-drainwork.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“Just a little PVC with a side of itchy regret.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="boiler-wall-chaos.jpg" target="_blank"><img src="boiler-wall-chaos.jpg" alt="boiler-wall-chaos.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“It’s not spaghetti… it’s spaghetti code. For plumbing.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="underground-squid-pipes.jpg" target="_blank"><img src="underground-squid-pipes.jpg" alt="underground-squid-pipes.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“We’re not saying it’s an alien nest… but we’re not *not* saying it either.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="heater-darkroom.jpg" target="_blank"><img src="heater-darkroom.jpg" alt="heater-darkroom.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“She’s not much to look at, but she’ll warm your soul (and your shower).”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="fallen-porta-potty.jpg" target="_blank"><img src="fallen-porta-potty.jpg" alt="fallen-porta-potty.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“When the wind takes your dignity with it.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="wet-surprise.jpg" target="_blank"><img src="wet-surprise.jpg" alt="wet-surprise.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“That’s not a puddle. That’s a plumbing plot twist.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="pipe-matrix.jpg" target="_blank"><img src="pipe-matrix.jpg" alt="pipe-matrix.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“Plumbing or power station? Either way, we bent reality to make it work.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="pvc-convergence.jpg" target="_blank"><img src="pvc-convergence.jpg" alt="pvc-convergence.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“Where four drain lines meet to discuss their futures.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="rotted-elbow.jpg" target="_blank"><img src="rotted-elbow.jpg" alt="rotted-elbow.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“This one gave up faster than my New Year’s resolution.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="mystery-plug.jpg" target="_blank"><img src="mystery-plug.jpg" alt="mystery-plug.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“We found the blockage. We wish we hadn’t.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="basement-concrete-lines.jpg" target="_blank"><img src="basement-concrete-lines.jpg" alt="basement-concrete-lines.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“Roughed in, mapped out, and ready to rule this basement.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="trench-boss.jpg" target="_blank"><img src="trench-boss.jpg" alt="trench-boss.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“Just one man, a trench, and a dream.”</figcaption>
-      </figure>
-    
-      <figure>
-        <a href="twister-lines.jpg" target="_blank"><img src="twister-lines.jpg" alt="twister-lines.jpg" style="max-width: 50%; height: auto;" /></a>
-        <figcaption>“When you try to play Twister with hot and cold water lines.”</figcaption>
-      </figure>
-    
-    </div>
-  </main>
+  <section class="gallery">
+    <figure>
+      <img src="insulation-drainwork.jpg" alt="Drain in Insulation" />
+      <figcaption>“Just a little PVC with a side of itchy regret.”</figcaption>
+    </figure>
+    <figure>
+      <img src="boiler-wall-chaos.jpg" alt="Wall of Boilers" />
+      <figcaption>“It’s not spaghetti… it’s spaghetti code. For plumbing.”</figcaption>
+    </figure>
+    <figure>
+      <img src="underground-squid-pipes.jpg" alt="Underground Pipes" />
+      <figcaption>“Not saying it’s an alien nest… but maybe.”</figcaption>
+    </figure>
+    <figure>
+      <img src="pipe-nightmare.jpg" alt="Pipe Nightmare" />
+      <figcaption>“New fear unlocked.”</figcaption>
+    </figure>
+    <figure>
+      <img src="laundry-tangle.jpg" alt="Laundry Tangle" />
+      <figcaption>“Red is hot. Blue is cold. Black is… creative.”</figcaption>
+    </figure>
+    <figure>
+      <img src="trench-boss.jpg" alt="Trench Work" />
+      <figcaption>“One man. One trench. One dream.”</figcaption>
+    </figure>
+  </section>
   <footer>
-    <p>&copy; 2025 Iron Plumbing</p>
+    &copy; 2025 Iron Plumbing Services — Built to Last.
   </footer>
 </body>
 </html>
